@@ -1,5 +1,7 @@
 FROM jenkinsci/jnlp-slave
 
+USER root
+
 # yanked from https://github.com/Quantisan/docker-clojure
 ENV LEIN_VERSION=2.5.3
 ENV LEIN_INSTALL=/usr/local/bin/
